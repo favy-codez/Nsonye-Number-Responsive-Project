@@ -9,7 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 7rem 0 0 0;
+    margin: 9rem 0 0 0;
     gap: 30px;
 }
 
@@ -25,9 +25,14 @@ h3{
     border-radius: 12px;
     text-align: center;
     line-height: 30px;
+    border-bottom: 12px solid #0fd094;
 }
 
 p{
-    font-size: 10px;
+    font-size: 13px;
     color: #83838f;
+}
+
+.icon{
+    font-size: 17px;
 }
