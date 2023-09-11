@@ -68,7 +68,20 @@ p{
     }
 }
 
-@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 912px) {
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        grid-gap: 50px 10px;
+    }
+    .box{
+        height: 160px;
+        width: 260px;
+        line-height: 50px;
+        padding: 40px 10px;
+    }
+}
 @media screen and (max-width: 1024px) {}
 @media screen and (max-width: 1024px) {}
 @media screen and (max-width: 1024px) {}
