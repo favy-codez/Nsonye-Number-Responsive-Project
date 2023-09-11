@@ -78,11 +78,62 @@ p{
     .box{
         height: 160px;
         width: 260px;
-        line-height: 50px;
-        padding: 40px 10px;
+        line-height: 60px;
+    }
+    .num{
+        font-size: 3rem;
+    }
+    .icon{
+        font-size: 30px;
+    }
+    p{
+        font-size: 26px;
     }
 }
-@media screen and (max-width: 1024px) {}
-@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 540px) {
+    .box{
+        height: 130px;
+        width: 170px;
+        line-height: 50px;
+    }
+    .num{
+        font-size: 2rem;
+    }
+    .icon{
+        font-size: 30px;
+    }
+    p{
+        font-size: 19px;
+    }
+    .container{
+        margin: 10rem 0 0 0;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .box{
+        height: 130px;
+        width: 150px;
+        line-height: 50px;
+    }
+    .container{
+        padding: 0 1.2rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .box{
+        height: 100px;
+        width: 130px;
+        line-height: 39px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .icon{
+        font-size: 20px;
+    }
+}
+
 @media screen and (max-width: 1024px) {}
 @media screen and (max-width: 1024px) {}
